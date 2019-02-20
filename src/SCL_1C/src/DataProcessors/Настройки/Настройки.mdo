@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d29e0e-2f79-479f-b21e-74bec856a119">
+  <producedTypes>
+    <objectType typeId="fa7cc87b-ee58-45e1-9d36-2768bcfaef0f" valueTypeId="131c80f1-55a2-4178-ac5f-284334d9f7b2"/>
+    <managerType typeId="891e0caa-7923-48f6-b807-a7dd62cb1c3e" valueTypeId="d5914921-ebda-4c77-bfa5-4fdad6cb17f7"/>
+  </producedTypes>
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="07301f30-115a-491c-936a-3c9a5f353e38">
+    <name>АдресХранилищаГит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища гит</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="787f49ee-d1dc-400d-ab51-bd3c95f7aeee">
+  <producedTypes>
+    <objectType typeId="e6652db1-159b-4e30-8bca-965c976b1969" valueTypeId="ca39e62c-4d5b-44f4-accc-7522aa0dcf1c"/>
+    <refType typeId="82c4717a-3248-4d71-aac5-cd75c374b560" valueTypeId="c2e45932-8da5-49a5-b810-f9a7e1b4c6c8"/>
+    <selectionType typeId="cfd0c149-9ec3-4755-9bd3-4cbf538dc29e" valueTypeId="9e35957a-edaf-4e41-8dfe-cce76038165a"/>
+    <listType typeId="d8909d53-2a8d-4ba2-9013-0bf75a8f251f" valueTypeId="0d376f53-f98d-488a-87aa-4c3452d593de"/>
+    <managerType typeId="b40263c6-6235-4666-9a79-2032fdca870d" valueTypeId="8baf34df-7e3f-4fee-b13e-e0509efd3d10"/>
+    <extDimensionTypes typeId="70316442-7766-4e6d-a597-f6f3f5eb8dcc" valueTypeId="43b1def4-d755-418d-8cf8-eb2b25effaf2"/>
+    <extDimensionTypesRow typeId="1a941151-466b-4f22-b015-54596e6eb799" valueTypeId="7a68a9cc-a29d-4871-801b-e39197192232"/>
+  </producedTypes>
+  <name>ПланСчетов1</name>
+  <comment></comment>
+  <inputByString>ChartOfAccounts.ПланСчетов1.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.ПланСчетов1.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeMask></codeMask>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="dd05ab42-d4f0-483f-9efc-351d5124dc07">
+      <name>oop</name>
+      <description>Oop</description>
+      <code>8990</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c7e98a1c-4788-404f-b638-099e9c5b6d05">
+    <name>Реквизит1</name>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfAccounts>
