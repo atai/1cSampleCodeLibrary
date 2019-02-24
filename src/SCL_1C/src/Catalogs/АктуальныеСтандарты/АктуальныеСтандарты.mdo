@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc1b05bb-077f-4bae-97f1-c94a234eb162">
+  <producedTypes>
+    <objectType typeId="ff106330-798f-46d7-bc55-ca5c37a19e5f" valueTypeId="c4d0f5e2-b7f1-4f49-aea8-3b7df4eb0a22"/>
+    <refType typeId="7b76ace8-feb9-49c9-8429-eb1374f15bcd" valueTypeId="57569de2-df6e-41a0-a703-3d8fbdb783ab"/>
+    <selectionType typeId="3c825d09-e42c-4582-b444-d8d2f3f66e15" valueTypeId="0da0307e-f9e2-45d2-896a-1933b72681a2"/>
+    <listType typeId="0175b6b6-7b82-4ed0-a55f-fdcfa2bac94e" valueTypeId="5e0aaf20-0bcb-42e6-b052-2d2404280e1c"/>
+    <managerType typeId="ac811545-5a22-450e-8918-ad94620a3df2" valueTypeId="af62cbfe-fb6e-49e3-9993-6d0b88833662"/>
+  </producedTypes>
+  <name>АктуальныеСтандарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальные стандарты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АктуальныеСтандарты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АктуальныеСтандарты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

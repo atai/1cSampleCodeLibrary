@@ -41,5 +41,6 @@
   <commonModules>CommonModule.РаботаСGit</commonModules>
   <catalogs>Catalog.Примеры</catalogs>
   <catalogs>Catalog.ХранилищаГит</catalogs>
+  <catalogs>Catalog.АктуальныеСтандарты</catalogs>
   <dataProcessors>DataProcessor.Настройки</dataProcessors>
 </mdclass:Configuration>
