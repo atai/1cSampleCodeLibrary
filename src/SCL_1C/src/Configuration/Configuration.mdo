@@ -41,6 +41,7 @@
   <commonModules>CommonModule.РаботаСGit</commonModules>
   <catalogs>Catalog.Примеры</catalogs>
   <catalogs>Catalog.ХранилищаГит</catalogs>
+  <catalogs>Catalog.АктуальныеСтандарты</catalogs>
   <dataProcessors>DataProcessor.Настройки</dataProcessors>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов1</chartsOfAccounts>
 </mdclass:Configuration>
