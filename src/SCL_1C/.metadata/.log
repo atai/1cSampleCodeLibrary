@@ -1,0 +1,18 @@
+!SESSION 2019-02-24 16:02:23.981 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\tmp\git\1cSampleCodeLibrary\src\SCL_1C
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2019-02-24 16:02:31.825
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2019-02-24 16:02:32.887
+!MESSAGE 1C:Pult service host is https://pult.1c.ru/. Statistic collection is enabled.
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2019-02-24 16:05:15.782
+!MESSAGE EDT закрывается
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2019-02-24 16:05:17.638
+!MESSAGE All known SSH connectons released
