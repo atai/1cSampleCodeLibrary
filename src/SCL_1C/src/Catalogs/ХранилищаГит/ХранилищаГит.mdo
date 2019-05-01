@@ -32,10 +32,10 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="9043d46f-9df0-4a43-bf3b-5992fe5baf0e">
-    <name>СтрокаПодклчюения</name>
+    <name>СтрокаПодключения</name>
     <synonym>
       <key>ru</key>
-      <value>Строка подклчюения</value>
+      <value>Строка подключения</value>
     </synonym>
     <comment></comment>
     <type>
@@ -124,4 +124,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <commands uuid="5399ec95-8543-42b5-a99d-d7f66b2807b9">
+    <name>ПротестироватьНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протестировать настройки</value>
+    </synonym>
+    <comment>Проводит тестирование настроек</comment>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
